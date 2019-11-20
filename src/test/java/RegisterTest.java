@@ -11,7 +11,7 @@ public class RegisterTest {
         driver.get("https://fasttrackit.org/selenium-test/");
         driver.manage().window().maximize();
 
-        driver.findElement(By.xpath("//*[@id=\"header\"]/div/div[2]/div/a/span[2]")).click();
+        driver.findElement(By.linkText("ACCOUNT")).click();
         driver.findElement(By.cssSelector("#header-account > div > ul > li:nth-child(5) > a")).click();
         driver.findElement(By.id("firstname")).sendKeys("Pentek");
         driver.findElement(By.name("lastname")).sendKeys("Magda");
