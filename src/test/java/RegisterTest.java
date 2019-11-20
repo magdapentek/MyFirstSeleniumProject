@@ -5,6 +5,7 @@ public class RegisterTest {
 //    atenție ca email-ul să fie unic, bifați opțiunea pentru primirea newsleterr-ului).
 //    Folosiți identificatori diferiți pentru câmpurile de pe pagina Register (id, name, className).
     public static void main(String[] args) {
+        
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://fasttrackit.org/selenium-test/");
